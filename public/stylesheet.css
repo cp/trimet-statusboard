@@ -1,0 +1,18 @@
+body {
+	text-align: center;
+	font-family: helvetica;
+}
+
+h2, h3 {
+	color: #7b7b7b;
+}
+
+a {
+	color: #7b7b7b;
+	text-decoration: none;
+	border-bottom: 1px dashed;
+}
+
+a:hover {
+	color: #a2a2a2;
+}

@@ -1,0 +1,8 @@
+<table id="arrivals">
+<% @parsed_arrivals.each do |arrival| %>
+	<tr>
+		<td><%= arrival['shortSign'] %></td>
+		<td><%= Time.at(arrival['scheduled'].to_i).strftime('%l:%M %p') %></td>
+	</tr>
+<% end %>
+</table>
