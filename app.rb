@@ -3,7 +3,7 @@ require 'httparty'
 
 
 configure do
-  set :appid, "833EA58AD00D351A7C678D753"
+  set :appid, "YOUR_APP_ID" # Get one at http://developer.trimet.org/
 end
 
 get '/' do
